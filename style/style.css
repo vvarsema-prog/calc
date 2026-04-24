@@ -25,24 +25,28 @@
     text-align: end;
     background-color: #cac7c7;
     height: 130px;
+    position:relative;
 }
 .gamosax{
     font-size: 20px;
 }
 .pasuxi{
     font-size: 30px;
-}
-.btn.flex{
-    align-items: center;
-    border-radius: 20px;
-    background-color: #cac7c7;
-    padding: 20px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 100%;
+    text-align: right;
+    overflow: hidden;
 }
 .calcmain{
     margin-bottom: 4px;
 }
-.btn{
+.btn.flex{
     width: 80px;
     height: 80px;
-    border-radius: ;
+    border-radius: 20px;
+    background-color: #cac7c7;
+    padding: 30px;
+    margin-top: 10px;
 }
